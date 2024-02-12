@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_close"
+        android:background="@android:color/transparent"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginHorizontal="33dp"
+        android:layout_marginTop="86dp"
+        android:textSize="50sp"
+        android:text="Galaxy"
+        tools:text="Galaxy"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:layout_marginHorizontal="33dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:gravity="center_vertical"
+            android:background="@drawable/shape_rounded_conteiners"
+            android:orientation="horizontal">
+            
+            <TextView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:textSize="16sp"
+                android:gravity="center"
+                android:layout_marginStart="12dp"
+                android:background="@drawable/shape_rounded_variants"
+                android:textColor="#888992"
+                android:text="1"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:text="Сломать"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:gravity="center_vertical"
+            android:layout_marginTop="18dp"
+            android:background="@drawable/shape_rounded_conteiners"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:textSize="16sp"
+                android:gravity="center"
+                android:layout_marginStart="12dp"
+                android:background="@drawable/shape_rounded_variants"
+                android:textColor="#888992"
+                android:text="2"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:text="Утюг"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_marginTop="18dp"
+            android:gravity="center_vertical"
+            android:background="@drawable/shape_rounded_conteiners"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:textSize="16sp"
+                android:gravity="center"
+                android:layout_marginStart="12dp"
+                android:background="@drawable/shape_rounded_variants"
+                android:textColor="#888992"
+                android:text="3"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:text="Галактика"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:gravity="center_vertical"
+            android:layout_marginTop="18dp"
+            android:background="@drawable/shape_rounded_conteiners"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:textSize="16sp"
+                android:gravity="center"
+                android:layout_marginStart="12dp"
+                android:background="@drawable/shape_rounded_variants"
+                android:textColor="#888992"
+                android:text="4"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:text="Сон"/>
+        </LinearLayout>
+
+    </LinearLayout>
+</LinearLayout>
