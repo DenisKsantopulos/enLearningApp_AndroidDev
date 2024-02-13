@@ -1,4 +1,7 @@
 <resources>
-    <string name="app_name">firstApp</string>
+    <string name="app_name" translatable="false">firstApp</string>
     <string name="hello_android">0</string>
+    <string name="button_skip">Skip</string>
+    <string name="title_correct">Correct!</string>
+    <string name="button_continue">Continue</string>
 </resources>
